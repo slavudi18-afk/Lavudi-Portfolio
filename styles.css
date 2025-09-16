@@ -1,0 +1,40 @@
+/* Hero Section with Background */
+.hero {
+  background: url("https://github.com/slavudi18-afk/Portfolio-assets/blob/2d21137db5de522efe73acd8b8e1469c3ad448ed/IMG-20250711-WA0139~2.jpg?raw=true")
+              center/cover no-repeat;
+  color: #fff;
+  position: relative;
+  padding: 100px 0 40px;
+}
+
+.hero-overlay {
+  background: rgba(0,0,0,0.55);
+  padding: 40px 0;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 280px;
+  gap: 20px;
+  align-items: center;
+}
+
+.hero-text h1 {
+  font-size: 36px;
+}
+.hero-text h2 {
+  font-size: 22px;
+  color: #f0f0f0;
+}
+.hero-text .lead {
+  margin: 15px 0;
+}
+
+.hero-photo img {
+  width: 260px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid var(--accent);
+  background: #fff;
+}
